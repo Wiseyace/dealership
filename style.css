@@ -1,0 +1,144 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a:hover {
+    color: #ff9800;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .home {
+    background-color: #1a1a1a;
+  }
+  
+  .search-box {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+  }
+  
+  .search-box select,
+  .search-box button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .search-box button {
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-box button:hover {
+    background-color: #0097a7;
+  }
+  
+  .car-result {
+    margin-top: 30px;
+  }
+  
+  .car-result img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .gallery-item img {
+    width: 70%;
+    border-radius: 8px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .contact button {
+    padding: 12px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #0097a7;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #aaa;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
